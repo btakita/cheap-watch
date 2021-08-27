@@ -34,12 +34,11 @@
 		"@rollup/plugin-typescript": "^8.2.5",
 		"@types/node": "^16.7.2",
 		"rollup": "^2.56.3",
-		"typescript": "^4.3.5"
+		"typescript": "^4.4.2"
 	},
 	"scripts": {
 		"build": "rollup -c",
 		"dev": "rollup -cw",
-		"prepare": "npm run build",
 		"prepublishOnly": "npm test",
 		"pretest": "npm run build",
 		"test": "node test.js"
